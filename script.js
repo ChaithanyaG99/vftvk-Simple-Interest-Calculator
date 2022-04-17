@@ -1,15 +1,10 @@
 function compute()
 {
    var principal = document.getElementById("principal").value;
-   if(parseInt(principal) < 1 ){
+   if(parseInt(principal) < 1 || parseInt(principal) == null || parseInt(principal) == "" ){
        alert("Enter a positive number");
        document.getElementById("principal").focus();
        return;
-   }
-   if (parseInt(principal) == null || parseInt(principal) == "") {
-        alert("Enter a positive number");
-        document.getElementById("principal").focus();
-        return ;
    }
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
