@@ -7,7 +7,7 @@ function compute()
        return;
    }
    if (p == null || p == "") {
-        alert("Please fill 'Amount' to calculate Simple Iterest.");
+        alert("Enter a positive number");
         document.getElementById("principal").focus();
         return ;
    }
