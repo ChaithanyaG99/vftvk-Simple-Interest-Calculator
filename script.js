@@ -6,7 +6,7 @@ function compute()
        document.getElementById("principal").focus();
        return;
    }
-   if (p == null || p == "") {
+   if (parseInt(principal) == null || parseInt(principal) == "") {
         alert("Enter a positive number");
         document.getElementById("principal").focus();
         return ;
